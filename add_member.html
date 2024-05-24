@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Member</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add New Member</h2>
+        <form action="submit_member.php" method="post">
+            <label for="id_salle">Salle ID:</label><br>
+            <input type="number" id="id_salle" name="id_salle" required><br>
+            <label for="id_abo">Abonnement ID:</label><br>
+            <input type="number" id="id_abo" name="id_abo" required><br>
+            <label for="nom_membre">Nom:</label><br>
+            <input type="text" id="nom_membre" name="nom_membre" required><br>
+            <label for="prenom_membre">Prénom:</label><br>
+            <input type="text" id="prenom_membre" name="prenom_membre" required><br>
+            <label for="adresse_membre">Adresse:</label><br>
+            <input type="text" id="adresse_membre" name="adresse_membre" required><br>
+            <label for="tele_membre">Téléphone:</label><br>
+            <input type="text" id="tele_membre" name="tele_membre" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
